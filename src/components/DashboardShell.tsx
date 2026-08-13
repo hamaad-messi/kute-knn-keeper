@@ -3,7 +3,7 @@ import { Link, useNavigate } from "@tanstack/react-router";
 import { useQueryClient } from "@tanstack/react-query";
 import {
   LayoutGrid, User, BookOpen, ClipboardCheck, Award, Briefcase,
-  Settings, LogOut, Menu, X, FileText, ShieldCheck,
+  Settings, LogOut, Menu, X, FileText,
 } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { Wordmark } from "@/components/Wordmark";
@@ -25,13 +25,11 @@ export function DashboardShell({
   description,
   actions,
   children,
-  isAdmin,
 }: {
   title: string;
   description?: string;
   actions?: ReactNode;
   children: ReactNode;
-  isAdmin?: boolean;
 }) {
   const navigate = useNavigate();
   const queryClient = useQueryClient();
@@ -65,16 +63,6 @@ export function DashboardShell({
               {label}
             </Link>
           ))}
-          {isAdmin && (
-            <Link
-              to="/admin"
-              onClick={() => setOpen(false)}
-              className="mt-2 flex items-center gap-3 rounded-md border-t border-sidebar-border px-3 pt-3 pb-2 text-sm text-sidebar-foreground hover:text-sidebar-primary"
-            >
-              <ShieldCheck className="h-4 w-4" strokeWidth={1.6} />
-              Administration
-            </Link>
-          )}
         </nav>
       </div>
       <div className="p-3">
