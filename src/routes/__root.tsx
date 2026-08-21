@@ -79,18 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SkillBridge — Digital Skill Bootcamp" },
+      { title: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
       {
         name: "description",
         content:
-          "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers.",
+          "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
       { name: "author", content: "SkillBridge Foundation" },
-      { property: "og:title", content: "SkillBridge — Digital Skill Bootcamp" },
+      { property: "og:title", content: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
       {
         property: "og:description",
         content:
-          "Structured digital skills training, assessment, certification and placement support.",
+          "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
