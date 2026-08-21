@@ -11,9 +11,9 @@ import {
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({
     meta: [
-      { title: "Learner Dashboard — SkillBridge" },
+      { title: "Learner Dashboard — SkillLoop" },
       { name: "description", content: "Your course progress, upcoming assessments and recommended vacancies." },
-      { property: "og:title", content: "Learner Dashboard — SkillBridge" },
+      { property: "og:title", content: "Learner Dashboard — SkillLoop" },
       { property: "og:description", content: "Track training progress and placement activity." },
     ],
   }),

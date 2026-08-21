@@ -7,10 +7,10 @@ import { Wordmark } from "@/components/Wordmark";
 export const Route = createFileRoute("/forgot-password")({
   head: () => ({
     meta: [
-      { title: "Reset Your Password — SkillBridge" },
-      { name: "description", content: "Request a password reset link for your SkillBridge learner account." },
-      { property: "og:title", content: "Reset Your Password — SkillBridge" },
-      { property: "og:description", content: "Password recovery for SkillBridge learners." },
+      { title: "Reset Your Password — SkillLoop" },
+      { name: "description", content: "Request a password reset link for your SkillLoop learner account." },
+      { property: "og:title", content: "Reset Your Password — SkillLoop" },
+      { property: "og:description", content: "Password recovery for SkillLoop learners." },
     ],
   }),
   component: ForgotPassword,

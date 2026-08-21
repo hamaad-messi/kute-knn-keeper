@@ -10,10 +10,10 @@ import { useAuth } from "@/lib/auth";
 export const Route = createFileRoute("/jobs/$jobId")({
   head: () => ({
     meta: [
-      { title: "Vacancy Detail — SkillBridge Job Portal" },
-      { name: "description", content: "Role description, requirements and employer information for this SkillBridge partner vacancy." },
-      { property: "og:title", content: "Vacancy Detail — SkillBridge Job Portal" },
-      { property: "og:description", content: "Apply to partner employers through SkillBridge." },
+      { title: "Vacancy Detail — SkillLoop Job Portal" },
+      { name: "description", content: "Role description, requirements and employer information for this SkillLoop partner vacancy." },
+      { property: "og:title", content: "Vacancy Detail — SkillLoop Job Portal" },
+      { property: "og:description", content: "Apply to partner employers through SkillLoop." },
     ],
   }),
   component: JobDetail,

@@ -9,10 +9,10 @@ import { fetchApplications, fetchIsAdmin } from "@/lib/queries";
 export const Route = createFileRoute("/_authenticated/applications")({
   head: () => ({
     meta: [
-      { title: "My Applications — SkillBridge" },
-      { name: "description", content: "Track the status of every job application you submitted through SkillBridge." },
-      { property: "og:title", content: "My Applications — SkillBridge" },
-      { property: "og:description", content: "Application tracker for SkillBridge learners." },
+      { title: "My Applications — SkillLoop" },
+      { name: "description", content: "Track the status of every job application you submitted through SkillLoop." },
+      { property: "og:title", content: "My Applications — SkillLoop" },
+      { property: "og:description", content: "Application tracker for SkillLoop learners." },
     ],
   }),
   component: Applications,

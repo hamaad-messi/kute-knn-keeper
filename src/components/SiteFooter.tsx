@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="container-page grid gap-10 py-14 md:grid-cols-4">
         <div>
           <p className="font-serif text-lg font-semibold">
-            Skill<span className="text-primary">Bridge</span>
+            Skill<span className="text-primary">Loop</span>
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-muted-foreground">
             A digital skill bootcamp preparing unemployed youth for entry-level roles in the
@@ -35,7 +35,7 @@ export function SiteFooter() {
           <ul className="mt-4 space-y-2.5 text-sm text-ink">
             <li>Unit 402, Prestige Centre</li>
             <li>Bengaluru 560001, India</li>
-            <li>admissions@skillbridge.org</li>
+            <li>admissions@skillloop.org</li>
             <li>+91 80 4712 9080</li>
           </ul>
           <div className="mt-5 flex gap-4 text-muted-foreground">
@@ -47,7 +47,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-border">
         <div className="container-page flex flex-col gap-2 py-5 text-xs text-muted-foreground sm:flex-row sm:justify-between">
-          <p>© 2026 SkillBridge Foundation. All rights reserved.</p>
+          <p>© 2026 SkillLoop Foundation. All rights reserved.</p>
           <p>Registered skilling partner — placeholder registration no. SB/2021/00418</p>
         </div>
       </div>

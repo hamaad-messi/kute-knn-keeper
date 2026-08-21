@@ -9,10 +9,10 @@ import { fetchCertificates, fetchIsAdmin, fetchProfile } from "@/lib/queries";
 export const Route = createFileRoute("/_authenticated/certificates/$courseId")({
   head: () => ({
     meta: [
-      { title: "Certificate of Completion — SkillBridge" },
-      { name: "description", content: "Official SkillBridge certificate of completion with verification code." },
-      { property: "og:title", content: "Certificate of Completion — SkillBridge" },
-      { property: "og:description", content: "A verified SkillBridge training certificate." },
+      { title: "Certificate of Completion — SkillLoop" },
+      { name: "description", content: "Official SkillLoop certificate of completion with verification code." },
+      { property: "og:title", content: "Certificate of Completion — SkillLoop" },
+      { property: "og:description", content: "A verified SkillLoop training certificate." },
     ],
   }),
   component: CertificateView,
@@ -27,7 +27,7 @@ function CertificateView() {
   const { data: profile } = useQuery({ queryKey: ["profile", uid], queryFn: () => fetchProfile(uid) });
 
   const cert = (certificates ?? []).find((c) => c.course_id === courseId);
-  const name = profile?.full_name?.trim() || user?.email || "SkillBridge Learner";
+  const name = profile?.full_name?.trim() || user?.email || "SkillLoop Learner";
 
   return (
     <DashboardShell
@@ -67,7 +67,7 @@ function CertificateView() {
               <p className="mt-3 font-serif text-2xl font-semibold">{cert.courses?.title}</p>
               <p className="mx-auto mt-6 max-w-md text-sm leading-relaxed text-ink">
                 including all required modules and the final graded assessment, meeting the
-                SkillBridge standard for job-ready {cert.courses?.category} competency.
+                SkillLoop standard for job-ready {cert.courses?.category} competency.
               </p>
 
               <div className="mt-12 grid gap-8 border-t border-border pt-8 text-left sm:grid-cols-3">
@@ -84,14 +84,14 @@ function CertificateView() {
                 <div>
                   <p className="eyebrow">Programme Director</p>
                   <p className="mt-1 font-serif text-lg">A. Mensah</p>
-                  <p className="text-xs text-muted-foreground">SkillBridge Institute</p>
+                  <p className="text-xs text-muted-foreground">SkillLoop Institute</p>
                 </div>
               </div>
             </div>
           </div>
           <p className="mx-auto mt-6 max-w-3xl text-center text-xs text-muted-foreground">
             Verify this certificate using ID {cert.code}. Employers may confirm authenticity through the
-            SkillBridge placement office.
+            SkillLoop placement office.
           </p>
         </>
       )}

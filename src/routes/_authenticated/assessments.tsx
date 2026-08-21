@@ -7,10 +7,10 @@ import { fetchAttempts, fetchEnrollments, fetchIsAdmin, fetchQuizzes } from "@/l
 export const Route = createFileRoute("/_authenticated/assessments")({
   head: () => ({
     meta: [
-      { title: "Assessments — SkillBridge" },
+      { title: "Assessments — SkillLoop" },
       { name: "description", content: "Course assessments available to you and your previous attempt history." },
-      { property: "og:title", content: "Assessments — SkillBridge" },
-      { property: "og:description", content: "Take graded SkillBridge course assessments." },
+      { property: "og:title", content: "Assessments — SkillLoop" },
+      { property: "og:description", content: "Take graded SkillLoop course assessments." },
     ],
   }),
   component: Assessments,

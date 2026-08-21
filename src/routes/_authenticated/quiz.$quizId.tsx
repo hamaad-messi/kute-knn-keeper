@@ -12,10 +12,10 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/_authenticated/quiz/$quizId")({
   head: () => ({
     meta: [
-      { title: "Assessment — SkillBridge" },
+      { title: "Assessment — SkillLoop" },
       { name: "description", content: "Complete the multiple-choice course assessment and receive an automatic score." },
-      { property: "og:title", content: "Assessment — SkillBridge" },
-      { property: "og:description", content: "SkillBridge graded assessment." },
+      { property: "og:title", content: "Assessment — SkillLoop" },
+      { property: "og:description", content: "SkillLoop graded assessment." },
     ],
   }),
   component: QuizPage,

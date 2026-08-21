@@ -12,10 +12,10 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/_authenticated/learn/$slug")({
   head: () => ({
     meta: [
-      { title: "Course Player — SkillBridge" },
+      { title: "Course Player — SkillLoop" },
       { name: "description", content: "Work through course modules and mark lessons complete." },
-      { property: "og:title", content: "Course Player — SkillBridge" },
-      { property: "og:description", content: "SkillBridge learning view with module list and progress." },
+      { property: "og:title", content: "Course Player — SkillLoop" },
+      { property: "og:description", content: "SkillLoop learning view with module list and progress." },
     ],
   }),
   component: LearnView,

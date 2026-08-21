@@ -9,13 +9,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/courses/")({
   head: () => ({
     meta: [
-      { title: "Course Catalog — SkillBridge" },
+      { title: "Course Catalog — SkillLoop" },
       {
         name: "description",
         content:
-          "Browse SkillBridge course tracks in web development, graphic design, digital marketing, MS Office and AI basics.",
+          "Browse SkillLoop course tracks in web development, graphic design, digital marketing, MS Office and AI basics.",
       },
-      { property: "og:title", content: "Course Catalog — SkillBridge" },
+      { property: "og:title", content: "Course Catalog — SkillLoop" },
       { property: "og:description", content: "Five assessed digital skill tracks with certification." },
     ],
   }),

@@ -3,7 +3,7 @@ import { Link, useNavigate } from "@tanstack/react-router";
 import { useQueryClient } from "@tanstack/react-query";
 import {
   LayoutGrid, User, BookOpen, ClipboardCheck, Award, Briefcase,
-  Settings, LogOut, Menu, X, FileText,
+  Settings, LogOut, Menu, X, FileText, BarChart3,
 } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { Wordmark } from "@/components/Wordmark";
@@ -17,6 +17,7 @@ const NAV = [
   { to: "/certificates", label: "Certificates", icon: Award },
   { to: "/jobs", label: "Job Portal", icon: Briefcase },
   { to: "/applications", label: "Applications", icon: FileText },
+  { to: "/insights", label: "Insights", icon: BarChart3 },
   { to: "/settings", label: "Settings", icon: Settings },
 ] as const;
 

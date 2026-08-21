@@ -5,13 +5,13 @@ import { SiteFooter } from "@/components/SiteFooter";
 export const Route = createFileRoute("/career-guidance")({
   head: () => ({
     meta: [
-      { title: "Career Guidance — SkillBridge" },
+      { title: "Career Guidance — SkillLoop" },
       {
         name: "description",
         content:
-          "Interview preparation, CV structure and first-job advice for SkillBridge learners entering the digital workforce.",
+          "Interview preparation, CV structure and first-job advice for SkillLoop learners entering the digital workforce.",
       },
-      { property: "og:title", content: "Career Guidance — SkillBridge" },
+      { property: "og:title", content: "Career Guidance — SkillLoop" },
       { property: "og:description", content: "Practical guidance on CVs, interviews and early career decisions." },
     ],
   }),

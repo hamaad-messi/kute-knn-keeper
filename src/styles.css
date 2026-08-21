@@ -5,10 +5,11 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * SkillBridge design system — institutional, monochrome + charcoal-blue accent.
- * Palette: #FFFFFF, #F5F5F4, #8A8A8A, #3F3F3F, #111111, accent #2B3440
+ * SkillLoop design system — academic ivory + deep navy with muted gold accents.
+ * Palette: ivory #FAF8F3, navy #1B2A4A, gold #C9A227, charcoal #1C1C1C, warm grey #8A8A8A
  * Headings: Source Serif 4. Body/UI: Inter.
  */
+
 
 @theme inline {
   --font-serif: "Source Serif 4", Georgia, serif;
@@ -58,42 +59,49 @@
 
 :root {
   --radius: 4px;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.1776 0 0);
-  --surface: oklch(0.9648 0.0013 106.4);
-  --ink: oklch(0.3556 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.1776 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.1776 0 0);
-  --primary: oklch(0.298 0.0225 254);
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.9648 0.0013 106.4);
-  --secondary-foreground: oklch(0.1776 0 0);
-  --muted: oklch(0.9648 0.0013 106.4);
-  --muted-foreground: oklch(0.6262 0 0);
-  --accent: oklch(0.9648 0.0013 106.4);
-  --accent-foreground: oklch(0.298 0.0225 254);
+  /* ivory #FAF8F3 */
+  --background: oklch(0.9772 0.0072 95);
+  /* charcoal #1C1C1C */
+  --foreground: oklch(0.2035 0 0);
+  /* deeper ivory surface */
+  --surface: oklch(0.9541 0.0105 95);
+  --ink: oklch(0.2035 0 0);
+  --card: oklch(0.9772 0.0072 95);
+  --card-foreground: oklch(0.2035 0 0);
+  --popover: oklch(0.9772 0.0072 95);
+  --popover-foreground: oklch(0.2035 0 0);
+  /* navy #1B2A4A */
+  --primary: oklch(0.2755 0.0555 264.5);
+  --primary-foreground: oklch(0.9772 0.0072 95);
+  --secondary: oklch(0.9541 0.0105 95);
+  --secondary-foreground: oklch(0.2035 0 0);
+  --muted: oklch(0.9541 0.0105 95);
+  /* warm grey #8A8A8A */
+  --muted-foreground: oklch(0.6167 0 0);
+  /* gold #C9A227 */
+  --accent: oklch(0.7136 0.128 87);
+  --accent-foreground: oklch(0.2035 0 0);
   --destructive: oklch(0.45 0.13 25);
-  --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.9 0 0);
-  --border-strong: oklch(0.82 0 0);
-  --input: oklch(0.88 0 0);
-  --ring: oklch(0.298 0.0225 254);
-  --chart-1: oklch(0.298 0.0225 254);
-  --chart-2: oklch(0.3556 0 0);
-  --chart-3: oklch(0.6262 0 0);
-  --chart-4: oklch(0.82 0 0);
-  --chart-5: oklch(0.9648 0.0013 106.4);
-  --sidebar: oklch(0.9648 0.0013 106.4);
-  --sidebar-foreground: oklch(0.3556 0 0);
-  --sidebar-primary: oklch(0.298 0.0225 254);
-  --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(1 0 0);
-  --sidebar-accent-foreground: oklch(0.1776 0 0);
-  --sidebar-border: oklch(0.9 0 0);
-  --sidebar-ring: oklch(0.298 0.0225 254);
+  --destructive-foreground: oklch(0.9772 0.0072 95);
+  --border: oklch(0.8735 0.005 95);
+  --border-strong: oklch(0.6167 0 0);
+  --input: oklch(0.8353 0.004 95);
+  --ring: oklch(0.2755 0.0555 264.5);
+  --chart-1: oklch(0.2755 0.0555 264.5);
+  --chart-2: oklch(0.7136 0.128 87);
+  --chart-3: oklch(0.2035 0 0);
+  --chart-4: oklch(0.6167 0 0);
+  --chart-5: oklch(0.9541 0.0105 95);
+  --sidebar: oklch(0.9541 0.0105 95);
+  --sidebar-foreground: oklch(0.2035 0 0);
+  --sidebar-primary: oklch(0.2755 0.0555 264.5);
+  --sidebar-primary-foreground: oklch(0.9772 0.0072 95);
+  --sidebar-accent: oklch(0.9772 0.0072 95);
+  --sidebar-accent-foreground: oklch(0.2755 0.0555 264.5);
+  --sidebar-border: oklch(0.8735 0.005 95);
+  --sidebar-ring: oklch(0.2755 0.0555 264.5);
 }
+
 
 @layer base {
   * {
