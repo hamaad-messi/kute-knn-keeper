@@ -5,10 +5,11 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * SkillLoop design system — institutional, monochrome + charcoal-blue accent.
- * Palette: #FFFFFF, #F5F5F4, #8A8A8A, #3F3F3F, #111111, accent #2B3440
+ * SkillLoop design system — academic ivory + deep navy with muted gold accents.
+ * Palette: ivory #FAF8F3, navy #1B2A4A, gold #C9A227, charcoal #1C1C1C, warm grey #8A8A8A
  * Headings: Source Serif 4. Body/UI: Inter.
  */
+
 
 @theme inline {
   --font-serif: "Source Serif 4", Georgia, serif;
