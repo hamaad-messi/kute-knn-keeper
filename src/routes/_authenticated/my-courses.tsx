@@ -7,10 +7,10 @@ import { courseProgress, fetchEnrollments, fetchIsAdmin, fetchLessonsForCourses,
 export const Route = createFileRoute("/_authenticated/my-courses")({
   head: () => ({
     meta: [
-      { title: "My Courses — SkillBridge" },
+      { title: "My Courses — SkillLoop" },
       { name: "description", content: "Every course track you are enrolled in, with completion progress." },
-      { property: "og:title", content: "My Courses — SkillBridge" },
-      { property: "og:description", content: "Continue your SkillBridge training modules." },
+      { property: "og:title", content: "My Courses — SkillLoop" },
+      { property: "og:description", content: "Continue your SkillLoop training modules." },
     ],
   }),
   component: MyCourses,

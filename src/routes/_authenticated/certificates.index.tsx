@@ -8,10 +8,10 @@ import { fetchCertificates, fetchIsAdmin } from "@/lib/queries";
 export const Route = createFileRoute("/_authenticated/certificates/")({
   head: () => ({
     meta: [
-      { title: "Certificates — SkillBridge" },
-      { name: "description", content: "Certificates issued for the SkillBridge assessments you have passed." },
-      { property: "og:title", content: "Certificates — SkillBridge" },
-      { property: "og:description", content: "Download and verify your SkillBridge certificates." },
+      { title: "Certificates — SkillLoop" },
+      { name: "description", content: "Certificates issued for the SkillLoop assessments you have passed." },
+      { property: "og:title", content: "Certificates — SkillLoop" },
+      { property: "og:description", content: "Download and verify your SkillLoop certificates." },
     ],
   }),
   component: Certificates,

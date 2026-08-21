@@ -10,10 +10,10 @@ import { fetchIsAdmin } from "@/lib/queries";
 export const Route = createFileRoute("/_authenticated/settings")({
   head: () => ({
     meta: [
-      { title: "Account Settings — SkillBridge" },
-      { name: "description", content: "Change your SkillBridge account password and review account details." },
-      { property: "og:title", content: "Account Settings — SkillBridge" },
-      { property: "og:description", content: "Manage your SkillBridge learner account." },
+      { title: "Account Settings — SkillLoop" },
+      { name: "description", content: "Change your SkillLoop account password and review account details." },
+      { property: "og:title", content: "Account Settings — SkillLoop" },
+      { property: "og:description", content: "Manage your SkillLoop learner account." },
     ],
   }),
   component: SettingsPage,

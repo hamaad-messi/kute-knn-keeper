@@ -79,18 +79,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
+      { title: "SkillLoop — Free Digital Skills Bootcamp for Job Seekers" },
       {
         name: "description",
         content:
-          "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
+          "SkillLoop trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
-      { name: "author", content: "SkillBridge Foundation" },
-      { property: "og:title", content: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
+      { name: "author", content: "SkillLoop Foundation" },
+      { property: "og:title", content: "SkillLoop — Free Digital Skills Bootcamp for Job Seekers" },
       {
         property: "og:description",
         content:
-          "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
+          "SkillLoop trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

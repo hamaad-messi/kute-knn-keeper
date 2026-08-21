@@ -9,13 +9,13 @@ import { CATEGORIES, fetchJobs } from "@/lib/queries";
 export const Route = createFileRoute("/jobs/")({
   head: () => ({
     meta: [
-      { title: "Job Portal — SkillBridge Placements" },
+      { title: "Job Portal — SkillLoop Placements" },
       {
         name: "description",
         content:
-          "Entry-level roles from SkillBridge partner employers across web development, design, marketing, administration and AI operations.",
+          "Entry-level roles from SkillLoop partner employers across web development, design, marketing, administration and AI operations.",
       },
-      { property: "og:title", content: "Job Portal — SkillBridge Placements" },
+      { property: "og:title", content: "Job Portal — SkillLoop Placements" },
       { property: "og:description", content: "Search partner vacancies and track your applications." },
     ],
   }),
@@ -54,7 +54,7 @@ function JobsPage() {
           <p className="eyebrow">Placement</p>
           <h1 className="mt-4 text-3xl leading-tight font-semibold md:text-4xl">Job portal</h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink">
-            Vacancies shared by partner employers who recruit from SkillBridge cohorts. Certified
+            Vacancies shared by partner employers who recruit from SkillLoop cohorts. Certified
             learners are shortlisted first.
           </p>
           <p className="mt-6 text-sm text-muted-foreground">

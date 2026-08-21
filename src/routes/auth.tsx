@@ -15,10 +15,10 @@ export const Route = createFileRoute("/auth")({
   }),
   head: () => ({
     meta: [
-      { title: "Learner Access — SkillBridge" },
-      { name: "description", content: "Sign in to your SkillBridge learner account or register for the next cohort." },
-      { property: "og:title", content: "Learner Access — SkillBridge" },
-      { property: "og:description", content: "Learner login and registration for the SkillBridge bootcamp." },
+      { title: "Learner Access — SkillLoop" },
+      { name: "description", content: "Sign in to your SkillLoop learner account or register for the next cohort." },
+      { property: "og:title", content: "Learner Access — SkillLoop" },
+      { property: "og:description", content: "Learner login and registration for the SkillLoop bootcamp." },
     ],
   }),
   component: AuthPage,

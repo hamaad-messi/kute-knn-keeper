@@ -9,16 +9,16 @@ import heroImage from "@/assets/hero-classroom.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
+      { title: "SkillLoop — Free Digital Skills Bootcamp for Job Seekers" },
       {
         name: "description",
         content:
-          "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
+          "SkillLoop trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
-      { property: "og:title", content: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
+      { property: "og:title", content: "SkillLoop — Free Digital Skills Bootcamp for Job Seekers" },
       {
         property: "og:description",
-        content: "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
+        content: "SkillLoop trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
     ],
   }),
@@ -28,7 +28,7 @@ export const Route = createFileRoute("/")({
 const STEPS = [
   { n: "01", title: "Register", body: "Create a learner profile with your education background and current skills." },
   { n: "02", title: "Learn", body: "Work through structured video and reading modules at your own pace." },
-  { n: "03", title: "Get certified", body: "Pass the course assessment to earn a verifiable SkillBridge certificate." },
+  { n: "03", title: "Get certified", body: "Pass the course assessment to earn a verifiable SkillLoop certificate." },
   { n: "04", title: "Get placed", body: "Apply to partner employers through the job portal and track every application." },
 ];
 
@@ -75,7 +75,7 @@ function Landing() {
               Closing the digital skills gap for young people without work.
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-ink">
-              SkillBridge is a structured, no-cost bootcamp that takes first-time job seekers from
+              SkillLoop is a structured, no-cost bootcamp that takes first-time job seekers from
               foundational digital skills to assessed certification and employer introductions. Five
               career tracks, one continuous pathway from registration to placement.
             </p>
@@ -106,7 +106,7 @@ function Landing() {
           <div className="border border-border">
             <img
               src={heroImage}
-              alt="Learners working at computers in a SkillBridge training classroom"
+              alt="Learners working at computers in a SkillLoop training classroom"
               className="h-full w-full object-cover"
               loading="eager"
             />

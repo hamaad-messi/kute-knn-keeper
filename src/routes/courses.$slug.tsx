@@ -11,9 +11,9 @@ import { useAuth } from "@/lib/auth";
 export const Route = createFileRoute("/courses/$slug")({
   head: () => ({
     meta: [
-      { title: "Course Detail — SkillBridge" },
-      { name: "description", content: "Syllabus, instructor and enrolment details for this SkillBridge course track." },
-      { property: "og:title", content: "Course Detail — SkillBridge" },
+      { title: "Course Detail — SkillLoop" },
+      { name: "description", content: "Syllabus, instructor and enrolment details for this SkillLoop course track." },
+      { property: "og:title", content: "Course Detail — SkillLoop" },
       { property: "og:description", content: "Module list, instructor background and assessment requirements." },
     ],
   }),

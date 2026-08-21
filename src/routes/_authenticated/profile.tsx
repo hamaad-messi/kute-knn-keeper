@@ -11,10 +11,10 @@ import { fetchIsAdmin, fetchProfile } from "@/lib/queries";
 export const Route = createFileRoute("/_authenticated/profile")({
   head: () => ({
     meta: [
-      { title: "My Profile — SkillBridge" },
+      { title: "My Profile — SkillLoop" },
       { name: "description", content: "Maintain the learner profile employers see when you apply." },
-      { property: "og:title", content: "My Profile — SkillBridge" },
-      { property: "og:description", content: "Education, skills and CV details for your SkillBridge account." },
+      { property: "og:title", content: "My Profile — SkillLoop" },
+      { property: "og:description", content: "Education, skills and CV details for your SkillLoop account." },
     ],
   }),
   component: ProfilePage,

@@ -5,13 +5,13 @@ import { SiteFooter } from "@/components/SiteFooter";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About the Programme — SkillBridge" },
+      { title: "About the Programme — SkillLoop" },
       {
         name: "description",
         content:
-          "SkillBridge is a not-for-profit digital skilling programme working with employers and public bodies to move unemployed youth into first jobs.",
+          "SkillLoop is a not-for-profit digital skilling programme working with employers and public bodies to move unemployed youth into first jobs.",
       },
-      { property: "og:title", content: "About the Programme — SkillBridge" },
+      { property: "og:title", content: "About the Programme — SkillLoop" },
       {
         property: "og:description",
         content: "Our mission, programme structure and partner organisations.",
@@ -36,12 +36,12 @@ function About() {
       <SiteHeader />
       <section className="border-b border-border">
         <div className="container-page max-w-3xl py-16 lg:py-24">
-          <p className="eyebrow">About SkillBridge</p>
+          <p className="eyebrow">About SkillLoop</p>
           <h1 className="mt-5 text-3xl leading-tight font-semibold md:text-4xl">
             Employment is the outcome we measure. Everything else is a means to it.
           </h1>
           <p className="mt-6 text-base leading-relaxed text-ink">
-            SkillBridge was established in 2021 as a not-for-profit skilling initiative after a
+            SkillLoop was established in 2021 as a not-for-profit skilling initiative after a
             regional labour survey found that 41% of graduates in our operating districts had not
             held formal employment eighteen months after finishing their degree. The gap was rarely
             aptitude. It was the absence of demonstrable, current digital skills and a credible
