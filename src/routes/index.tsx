@@ -9,16 +9,16 @@ import heroImage from "@/assets/hero-classroom.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "SkillBridge — Digital Skills Training and Placement" },
+      { title: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
       {
         name: "description",
         content:
-          "SkillBridge trains unemployed youth in job-ready digital skills across web development, design, marketing, office software and AI, then connects graduates to employers.",
+          "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
-      { property: "og:title", content: "SkillBridge — Digital Skills Training and Placement" },
+      { property: "og:title", content: "SkillBridge — Free Digital Skills Bootcamp for Job Seekers" },
       {
         property: "og:description",
-        content: "Structured training, assessment, certification and placement support for first-time job seekers.",
+        content: "SkillBridge trains unemployed youth in job-ready digital skills and connects graduates to employers. Learn web development, design, marketing, office software and AI through a free, assessed bootcamp.",
       },
     ],
   }),
