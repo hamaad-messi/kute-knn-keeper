@@ -33,10 +33,10 @@ const STEPS = [
 ];
 
 const STATS = [
-  { value: "12,480", label: "Learners trained since 2021" },
-  { value: "5", label: "Career-aligned course tracks" },
-  { value: "3,912", label: "Job placements confirmed" },
-  { value: "68%", label: "Placement rate within six months" },
+  { value: "0", label: "Learners trained since 2021" },
+  { value: "0", label: "Career-aligned course tracks" },
+  { value: "0", label: "Job placements confirmed" },
+  { value: "0%", label: "Placement rate within six months" },
 ];
 
 const TESTIMONIALS = [
