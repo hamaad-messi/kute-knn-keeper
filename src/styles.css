@@ -5,10 +5,12 @@
 @custom-variant dark (&:is(.dark *));
 
 /*
- * SkillLoop design system — academic ivory + deep navy with muted gold accents.
- * Palette: ivory #FAF8F3, navy #1B2A4A, gold #C9A227, charcoal #1C1C1C, warm grey #8A8A8A
+ * SkillLoop design system — dark tech-bootcamp theme.
+ * Palette: near-black violet #0B0B12, panel #161622, magenta #D64BE0,
+ * violet #7C5CFF, mint #3DD6C4, text #F4F4F7, muted #9A9AAF.
  * Headings: Source Serif 4. Body/UI: Inter.
  */
+
 
 
 @theme inline {
@@ -59,48 +61,54 @@
 
 :root {
   --radius: 4px;
-  /* ivory #FAF8F3 */
-  --background: oklch(0.9772 0.0072 95);
-  /* charcoal #1C1C1C */
-  --foreground: oklch(0.2035 0 0);
-  /* deeper ivory surface */
-  --surface: oklch(0.9541 0.0105 95);
-  --ink: oklch(0.2035 0 0);
-  --card: oklch(0.9772 0.0072 95);
-  --card-foreground: oklch(0.2035 0 0);
-  --popover: oklch(0.9772 0.0072 95);
-  --popover-foreground: oklch(0.2035 0 0);
-  /* navy #1B2A4A */
-  --primary: oklch(0.2755 0.0555 264.5);
-  --primary-foreground: oklch(0.9772 0.0072 95);
-  --secondary: oklch(0.9541 0.0105 95);
-  --secondary-foreground: oklch(0.2035 0 0);
-  --muted: oklch(0.9541 0.0105 95);
-  /* warm grey #8A8A8A */
-  --muted-foreground: oklch(0.6167 0 0);
-  /* gold #C9A227 */
-  --accent: oklch(0.7136 0.128 87);
-  --accent-foreground: oklch(0.2035 0 0);
-  --destructive: oklch(0.45 0.13 25);
-  --destructive-foreground: oklch(0.9772 0.0072 95);
-  --border: oklch(0.8735 0.005 95);
-  --border-strong: oklch(0.6167 0 0);
-  --input: oklch(0.8353 0.004 95);
-  --ring: oklch(0.2755 0.0555 264.5);
-  --chart-1: oklch(0.2755 0.0555 264.5);
-  --chart-2: oklch(0.7136 0.128 87);
-  --chart-3: oklch(0.2035 0 0);
-  --chart-4: oklch(0.6167 0 0);
-  --chart-5: oklch(0.9541 0.0105 95);
-  --sidebar: oklch(0.9541 0.0105 95);
-  --sidebar-foreground: oklch(0.2035 0 0);
-  --sidebar-primary: oklch(0.2755 0.0555 264.5);
-  --sidebar-primary-foreground: oklch(0.9772 0.0072 95);
-  --sidebar-accent: oklch(0.9772 0.0072 95);
-  --sidebar-accent-foreground: oklch(0.2755 0.0555 264.5);
-  --sidebar-border: oklch(0.8735 0.005 95);
-  --sidebar-ring: oklch(0.2755 0.0555 264.5);
+  /* near-black violet #0B0B12 */
+  --background: oklch(0.1533 0.0149 284.5);
+  /* off-white #F4F4F7 */
+  --foreground: oklch(0.968 0.004 286.3);
+  /* panel #14141E */
+  --surface: oklch(0.1962 0.02 284.4);
+  --ink: oklch(0.8788 0.0088 286);
+  --card: oklch(0.2062 0.0237 284.1);
+  --card-foreground: oklch(0.968 0.004 286.3);
+  --popover: oklch(0.2062 0.0237 284.1);
+  --popover-foreground: oklch(0.968 0.004 286.3);
+  /* magenta #D64BE0 */
+  --primary: oklch(0.6587 0.24 325);
+  --primary-foreground: oklch(0.1533 0.0149 284.5);
+  --secondary: oklch(0.2402 0.0295 284.2);
+  --secondary-foreground: oklch(0.968 0.004 286.3);
+  --muted: oklch(0.2402 0.0295 284.2);
+  /* muted #9A9AAF */
+  --muted-foreground: oklch(0.6931 0.0305 285.6);
+  /* violet #7C5CFF */
+  --accent: oklch(0.599 0.2299 286.2);
+  --accent-foreground: oklch(0.968 0.004 286.3);
+  --destructive: oklch(0.58 0.19 22);
+  --destructive-foreground: oklch(0.968 0.004 286.3);
+  --border: oklch(0.2782 0.0367 283.8);
+  --border-strong: oklch(0.359 0.0413 284.1);
+  --input: oklch(0.3113 0.0392 283.9);
+  --ring: oklch(0.6587 0.24 325);
+  --chart-1: oklch(0.6587 0.24 325);
+  --chart-2: oklch(0.599 0.2299 286.2);
+  --chart-3: oklch(0.7938 0.1271 183.4);
+  --chart-4: oklch(0.749 0.2095 339.3);
+  --chart-5: oklch(0.6931 0.0305 285.6);
+  --sidebar: oklch(0.1962 0.02 284.4);
+  --sidebar-foreground: oklch(0.8788 0.0088 286);
+  --sidebar-primary: oklch(0.6587 0.24 325);
+  --sidebar-primary-foreground: oklch(0.1533 0.0149 284.5);
+  --sidebar-accent: oklch(0.2402 0.0295 284.2);
+  --sidebar-accent-foreground: oklch(0.968 0.004 286.3);
+  --sidebar-border: oklch(0.2782 0.0367 283.8);
+  --sidebar-ring: oklch(0.6587 0.24 325);
+  --gradient-headline: linear-gradient(90deg, oklch(0.599 0.2299 286.2), oklch(0.749 0.2095 339.3));
 }
+
+.dark {
+  color-scheme: dark;
+}
+
 
 
 @layer base {
@@ -155,6 +163,13 @@
   border-color: var(--color-primary);
 }
 
+@utility gradient-text {
+  background-image: var(--gradient-headline);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 @media print {
   body * { visibility: hidden !important; }
   .print-certificate, .print-certificate * { visibility: visible !important; }
@@ -162,6 +177,10 @@
     position: absolute;
     inset: 0;
     margin: 0;
-    border: 1px solid var(--color-border);
+    background: #ffffff !important;
+    color: #111111 !important;
+    border: 1px solid #d4d4d4;
   }
+  .print-certificate * { color: #111111 !important; }
 }
+
